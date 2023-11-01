@@ -15,7 +15,7 @@ function moveDodgerRight() {
   //convert that number into an integer
   const right = parseInt(rightNumbers, 10);
 //update the style property by adding one to the number, provided it is less than 360, the border of the body
-  dodger.style.left = (`${right-1}px`);
+  dodger.style.left = (`${right + 1}px`);
 }
 
 document.addEventListener("keydown", function (e) {
